@@ -152,6 +152,23 @@ def weak(creature):
     return wcreature
 
 
+def filter_creature(creature, filters):
+    for filter_exp in filters.split(','):
+        name, value = filter_exp.split('=', 1)
+        name = name.strip()
+        value = value.strip()
+        if value.startswith('~'):
+            value = value[1:]
+            the_filter = lambda c: value in c[name]
+        else:
+            the_filter = lambda c: c[name] == value
+
+        match = the_filter(creature)
+        if not match:
+            return False
+    return True
+
+
 def generate_encounter(rules, options):
     """
     Given rules and command-line options, generate a full encounter.
@@ -170,6 +187,8 @@ def generate_encounter(rules, options):
         creatures += [elite(c) for c in rules.creatures]
         creatures += [weak(c) for c in rules.creatures if c['Level'] >= 0]
     creatures = [c for c in creatures if in_level_range(c, party_level)]
+    if options.filter:
+        creatures = [c for c in creatures if filter_creature(c, options.filter)]
 
     while budget > min_cost:
         creatures = [c for c in creatures if in_budget(c, party_level, costs, budget)]
@@ -223,6 +242,8 @@ def main():
         '-a', '--similar-alignment', action='store_true', help='Alignments can be different, if similar')
     parser.add_argument(
         '--adjustments', action='store_true', help='Include elite/weak adjustments')
+    parser.add_argument(
+        '--filter', action='store', help='A filter of the form name=value[,name=value,...]')
 
     options = parser.parse_args()
 
