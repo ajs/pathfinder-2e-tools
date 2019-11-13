@@ -6,14 +6,31 @@ from .rules import PF2RulesFile
 
 
 def cost_of(creature, party_level, costs):
+    """
+    Return the XP budget cost of the given creature in a
+    party with average level given by party_level. The costs
+    array is indexed by the relative level of the creature to
+    the party, plus 4
+    """
+
     return costs[creature['Level'] - party_level + 4]
 
 
 def in_budget(creature, party_level, costs, budget):
+    """
+    Does the given creature fit in the budget of the given
+    party level party. Costs is the fixed array of XP costs.
+    """
+
     return cost_of(creature, party_level, costs) <= budget
 
 
 def in_level_range(creature, party_level):
+    """
+    Is the creature in the appropriate level range for a party
+    with average level given by party_level.
+    """
+    
     creature_level = creature['Level']
     min_level = party_level - 4
     max_level = party_level + 2
@@ -21,6 +38,10 @@ def in_level_range(creature, party_level):
 
 
 def print_creature(creature):
+    """
+    Print out the creature's one-line summary
+    """
+
     name = creature['Name']
     level = creature['Level']
     alignment = creature['Alignment']
@@ -29,6 +50,12 @@ def print_creature(creature):
 
 
 def alignment_coords(alignment):
+    """
+    Return a tuple with two integers representing the
+    location of the given alignment in the alignment grid.
+    e.g. Lawful Good is 0,0 while true Neutral is 1,1.
+    """
+
     if alignment == 'Neutral':
         return (1,1)
     parts = alignment.split(' ', 1)
@@ -40,10 +67,24 @@ def alignment_coords(alignment):
 
 
 def creature_aligned(creature, encounter, similar=False):
+    """
+    Is the given creature in keeping with the alignment of the
+    given array of creatures in encounter. If similar is true,
+    then alignements that are "one step" away are alloed. Otherwise
+    creature and all elements of encounter must either be the same
+    alignment or true Neutral.
+    """
+
     enc_aligns = [c['Alignment'] for c in encounter]
     return is_aligned(creature['Alignment'], enc_aligns, similar)
 
 def is_aligned(target_align, match_aligns, similar):
+    """
+    See creature_aligned for details. This function does the
+    work of matching alignments, but works from the alignments
+    themselves, not the creature stats overall.
+    """
+
     align_c = alignment_coords(target_align)
     if similar:
         box = [align_c, align_c]
@@ -65,10 +106,16 @@ def is_aligned(target_align, match_aligns, similar):
 
 
 def type_match(creature1, creature2):
+    """Are the creatures of the same type?"""
+
     return creature1['Creature Type'] == creature2['Creature Type']
 
 
 def generate_encounter(rules, options):
+    """
+    Given rules and command-line options, generate a full encounter.
+    """
+
     costs = rules.encounter_costs
     min_cost = costs[0]
     party_level = options.party_level
@@ -100,6 +147,11 @@ def generate_encounter(rules, options):
             print(f"Budget left: {budget}")
 
 def main():
+    """
+    Parse command-line, read rule data and then call
+    generate_encounter.
+    """
+
     threats = (
         "Trivial",
         "Low",
