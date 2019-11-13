@@ -180,9 +180,10 @@ def generate_encounter(rules, options):
             result_type = creature['Creature Type']
             if options.same_type:
                 creatures = [c for c in creatures if type_match(creature, c)]
-        creatures = [c for c in creatures if creature_aligned(c, encounter, options.similar_alignment)]
 
         encounter.append(creature)
+
+        creatures = [c for c in creatures if creature_aligned(c, encounter, options.similar_alignment)]
 
         budget -= cost_of(creature, party_level, costs)
 
