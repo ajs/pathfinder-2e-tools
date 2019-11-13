@@ -25,7 +25,7 @@ setup(
     ],
     keywords='tools gaming pathfinder d20',
     packages=find_packages(exclude=['contrib', 'docs', 'tests']),
-    python_requires='>=3.5, <4',
+    python_requires='~=3.5',
     install_requires=[],
     extras_require={
         'dev': [],
