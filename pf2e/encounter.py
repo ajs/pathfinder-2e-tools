@@ -37,7 +37,30 @@ def in_level_range(creature, party_level):
     return (creature_level >= min_level and creature_level <= max_level)
 
 
-def print_creature(creature):
+def print_creatures(creatures, options):
+    """Print out the creatures in the encounter"""
+
+    def namekey(obj):
+        return obj['Name']
+
+    def levelkey(obj):
+        return (-obj['Level'], namekey(obj))
+
+    def typekey(obj):
+        return (obj['Creature Type'], namekey(obj))
+
+    sortkeymap = dict(level=levelkey, name=namekey, type=typekey)
+
+    try:
+        sortkey = sortkeymap[options.sort]
+    except KeyError:
+        raise ValueError(f"Unknown sort mode {options.sort}")
+
+    for creature in sorted(creatures, key=sortkey):
+        print_creature(creature, options)
+
+
+def print_creature(creature, options):
     """
     Print out the creature's one-line summary
     """
@@ -120,11 +143,9 @@ def generate_encounter(rules, options):
     min_cost = costs[0]
     party_level = options.party_level
     threat_level = options.threat_level
-    creatures = rules.creatures
     creatures = [c for c in rules.creatures if in_level_range(c, party_level)]
     budget = rules.threat_budget[threat_level]
     result_type = None
-    result_align = None
     encounter = []
 
     while budget > min_cost:
@@ -139,12 +160,13 @@ def generate_encounter(rules, options):
         creatures = [c for c in creatures if creature_aligned(c, encounter, options.similar_alignment)]
 
         encounter.append(creature)
-        print_creature(creature)
 
         budget -= cost_of(creature, party_level, costs)
 
         if options.verbose:
             print(f"Budget left: {budget}")
+
+    print_creatures(encounter, options)
 
 def main():
     """
@@ -159,6 +181,8 @@ def main():
         "Severe",
         "Extreme",
     )
+    sorts = ('level', 'name', 'type')
+
     parser = argparse.ArgumentParser(
         description='Pathfinder 2 Random Encounter Generator')
     parser.add_argument(
@@ -167,6 +191,8 @@ def main():
         '-p', '--party-level', action='store', type=int, default=1, help='Set the average party level')
     parser.add_argument(
         '-t', '--threat-level', action='store', choices=threats, default='Moderate', help='Set the threat level')
+    parser.add_argument(
+        '--sort', action='store', choices=sorts, default='level', help='Set the output sort mode')
     parser.add_argument(
         '-T', '--same-type', action='store_true', help='Encounter must contian creatures of same type')
     parser.add_argument(
