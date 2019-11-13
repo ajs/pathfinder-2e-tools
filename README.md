@@ -19,6 +19,14 @@ Use:
 
 for more information.
 
+### Example
+
+	$ pf2e-encounter --party-level=10 --threat=Moderate --same-type --similar-alignment
+	Dezullon lvl 10 Neutral Plant
+	Shambler lvl 6 Neutral Plant
+	Shambler lvl 6 Neutral Plant
+	Shambler lvl 6 Neutral Plant
+
 ## LICENSE
 
 The code in this repository is all licensed under the MIT LICENSE. However, the
