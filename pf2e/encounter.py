@@ -244,12 +244,19 @@ def main():
         '--adjustments', action='store_true', help='Include elite/weak adjustments')
     parser.add_argument(
         '--filter', action='store', help='A filter of the form name=value[,name=value,...]')
+    parser.add_argument(
+        '-e', '--encounters', action='store', type=int, default=1, help='Generate this many encounters')
 
     options = parser.parse_args()
 
     with open(PF2RulesFile, 'r') as rules_file:
         rules = PF2Rules(rules_file, options)
-        generate_encounter(rules, options)
+        for n in range(options.encounters):
+            if options.encounters > 1:
+                print(f"Encounter #{n}")
+            generate_encounter(rules, options)
+            if options.encounters > 1:
+                print("")
 
 
 if __name__ == '__main__':
