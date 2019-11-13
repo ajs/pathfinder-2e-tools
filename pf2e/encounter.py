@@ -2,6 +2,7 @@
 import random
 import argparse
 from .rules import PF2Rules
+from .rules import PF2RulesFile
 
 
 def cost_of(creature, party_level, costs):
@@ -121,7 +122,7 @@ def main():
 
     options = parser.parse_args()
 
-    with open('rules.json', 'r') as rules_file:
+    with open(PF2RulesFile, 'r') as rules_file:
         rules = PF2Rules(rules_file, options)
         generate_encounter(rules, options)
 

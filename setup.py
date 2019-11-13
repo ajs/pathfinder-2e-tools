@@ -32,7 +32,7 @@ setup(
         'test': ['pytest'],
     },
     package_data={
-        'rules': ['rules.json'],
+        'rules': ['ogl-content/rules.json'],
     },
     entry_points={  # Optional
         'console_scripts': [

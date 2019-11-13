@@ -2,6 +2,9 @@
 import json
 
 
+PF2RulesFile = 'ogl-content/rules.json'
+
+
 class PF2Rules:
 	def __init__(self, infile, options):
 		self.options = options

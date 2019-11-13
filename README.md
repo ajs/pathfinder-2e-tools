@@ -11,7 +11,9 @@ These tools use Python, so just use pip to set them up:
 
 ## `encounter`
 
-The `encounter` tool is a random encounter generator that takes the monster list, randomizes it and then selects an encounter according to a threat level and average party level that you provide.
+The `encounter` tool is a random encounter generator that takes the
+monster list, randomizes it and then selects an encounter according to a
+threat level and average party level that you provide.
 
 Use:
 
@@ -29,9 +31,13 @@ for more information.
 
 ## LICENSE
 
-The code in this repository is all licensed under the MIT LICENSE. However, the
-rules.json data file is derived from the Pathfinder 2e rules and as such that
-file falls under the OGL. It is included here for conviniece, but may be replaced
-with creature, NPC, rule and item data from a source of your choosing.
+The **source code** in this repository is all licensed under the MIT
+LICENSE.
 
-For more detail, see LICENSE.txt and OGL.txt
+However the data files and other items in the `ogl-content` directory are
+derived from the Pathfinder 2e rules and as such those files fall under
+the OGL. It is included here for conviniece, but may be replaced with
+creature, NPC, rule and item data from a source of your choosing.
+
+For more detail, see [`LICENSE.txt`](LICENSE.txt) and
+[`ogl-content/OGL.txt`](ogl-content/OGL.txt)
