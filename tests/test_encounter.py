@@ -104,4 +104,5 @@ def test_is_aligned():
     assert not encounter.is_aligned("Lawful Good", ["Lawful Evil", "Neutral"], similar=True)
     assert not encounter.is_aligned("Lawful Good", ["Chaotic Good", "Neutral"], similar=True)
     assert not encounter.is_aligned("Lawful Neutral", ["Chaotic Neutral", "Neutral"], similar=True)
+    assert not encounter.is_aligned("Neutral Good", ["Chaotic Evil", "Neutral"], similar=True)
     assert encounter.is_aligned("Lawful Neutral", ["Neutral", "Neutral"], similar=True)
