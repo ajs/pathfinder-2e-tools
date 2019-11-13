@@ -231,7 +231,7 @@ def main():
     parser.add_argument(
         '-v', '--verbose', action='store_true', help='Verbose output')
     parser.add_argument(
-        '-p', '--party-level', action='store', type=int, default=1, help='Set the average party level')
+        '-p', '--party-level', action='store', type=int, metavar='LEVEL', default=1, help='Set the average party level')
     parser.add_argument(
         '-t', '--threat-level', action='store', choices=threats, default='Moderate', help='Set the threat level')
     parser.add_argument(
@@ -245,7 +245,7 @@ def main():
     parser.add_argument(
         '--filter', action='store', help='A filter of the form name=value[,name=value,...]')
     parser.add_argument(
-        '-e', '--encounters', action='store', type=int, default=1, help='Generate this many encounters')
+        '-e', '--encounters', action='store', type=int, metavar='COUNT', default=1, help='Generate this many encounters')
 
     options = parser.parse_args()
 
