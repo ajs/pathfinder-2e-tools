@@ -21,13 +21,25 @@ Use:
 
 for more information.
 
-### Example
+### Examples
+
+A moderate encounter for a level 10 party of creatures that are all the
+same type:
 
 	$ pf2e-encounter --party-level=10 --threat=Moderate --same-type --similar-alignment
 	Dezullon lvl 10 Neutral Plant
 	Shambler lvl 6 Neutral Plant
 	Shambler lvl 6 Neutral Plant
 	Shambler lvl 6 Neutral Plant
+
+A moderate encounter for a level 10 party of all undead creatures of
+similar alignments, including elite/weak adjustments:
+
+	$ pf2e-encounter --party-level=10 --similar-alignment --adjustments --filter='Creature Type=Undead'
+	Graveknight lvl 10 Lawful Evil Undead
+	Skeletal Hulk lvl 7 Neutral Evil Undead
+	Forge-Spurned (elite adj.) lvl 6 Neutral Evil Undead
+	Wraith lvl 6 Lawful Evil Undead
 
 ## LICENSE
 
