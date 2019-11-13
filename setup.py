@@ -29,7 +29,7 @@ setup(
     install_requires=[],
     extras_require={
         'dev': [],
-        'test': [],
+        'test': ['pytest'],
     },
     package_data={
         'rules': ['rules.json'],

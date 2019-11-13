@@ -1,0 +1,3708 @@
+{
+    "threat_budget": {
+        "Trivial": 40,
+        "Low": 60,
+        "Moderate": 80,
+        "Severe": 120,
+        "Extreme": 160
+	},
+    "encounter_costs": [10, 15, 20, 30, 40, 60, 80],
+    "creatures": [
+         {
+           "Name": "Aasimar Redeemer",
+           "Family": "Planar Scion",
+           "Level": 5,
+           "Alignment": "Neutral Good",
+           "Creature Type": "Humanoid",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Adamantine Golem",
+           "Family": "Golem",
+           "Level": 18,
+           "Alignment": "Neutral",
+           "Creature Type": "Construct",
+           "Size": "Large"
+         },
+         {
+           "Name": "Adult Black Dragon",
+           "Family": "Dragon, Chromatic",
+           "Level": 11,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Dragon",
+           "Size": "Large"
+         },
+         {
+           "Name": "Adult Blue Dragon",
+           "Family": "Dragon, Chromatic",
+           "Level": 13,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Dragon",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Adult Brass Dragon",
+           "Family": "Dragon, Metallic",
+           "Level": 11,
+           "Alignment": "Chaotic Good",
+           "Creature Type": "Dragon",
+           "Size": "Large"
+         },
+         {
+           "Name": "Adult Bronze Dragon",
+           "Family": "Dragon, Metallic",
+           "Level": 13,
+           "Alignment": "Lawful Good",
+           "Creature Type": "Dragon",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Adult Copper Dragon",
+           "Family": "Dragon, Metallic",
+           "Level": 12,
+           "Alignment": "Chaotic Good",
+           "Creature Type": "Dragon",
+           "Size": "Large"
+         },
+         {
+           "Name": "Adult Gold Dragon",
+           "Family": "Dragon, Metallic",
+           "Level": 15,
+           "Alignment": "Lawful Good",
+           "Creature Type": "Dragon",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Adult Green Dragon",
+           "Family": "Dragon, Chromatic",
+           "Level": 12,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Dragon",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Adult Magma Dragon",
+           "Family": "Dragon, Magma",
+           "Level": 13,
+           "Alignment": "Chaotic Neutral",
+           "Creature Type": "Dragon",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Adult Red Dragon",
+           "Family": "Dragon, Chromatic",
+           "Level": 14,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Dragon",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Adult Silver Dragon",
+           "Family": "Dragon, Metallic",
+           "Level": 14,
+           "Alignment": "Lawful Good",
+           "Creature Type": "Dragon",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Adult White Dragon",
+           "Family": "Dragon, Chromatic",
+           "Level": 10,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Dragon",
+           "Size": "Large"
+         },
+         {
+           "Name": "Air Mephit",
+           "Family": "Elemental, Mephit",
+           "Level": 1,
+           "Alignment": "Neutral",
+           "Creature Type": "Elemental",
+           "Size": "Small"
+         },
+         {
+           "Name": "Alchemical Golem",
+           "Family": "Golem",
+           "Level": 9,
+           "Alignment": "Neutral",
+           "Creature Type": "Construct",
+           "Size": "Large"
+         },
+         {
+           "Name": "Alghollthu Master (Aboleth)",
+           "Family": "Alghollthu",
+           "Level": 7,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Aberration",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Anadi Elder",
+           "Family": "Anadi",
+           "Level": 6,
+           "Alignment": "Chaotic Good",
+           "Creature Type": "Humanoid",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Anadi Hunter",
+           "Family": "Anadi",
+           "Level": 2,
+           "Alignment": "Chaotic Good",
+           "Creature Type": "Humanoid",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Anadi Sage",
+           "Family": "Anadi",
+           "Level": 4,
+           "Alignment": "Chaotic Good",
+           "Creature Type": "Humanoid",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Ancient Black Dragon",
+           "Family": "Dragon, Chromatic",
+           "Level": 16,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Dragon",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Ancient Blue Dragon",
+           "Family": "Dragon, Chromatic",
+           "Level": 18,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Dragon",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Ancient Brass Dragon",
+           "Family": "Dragon, Metallic",
+           "Level": 16,
+           "Alignment": "Chaotic Good",
+           "Creature Type": "Dragon",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Ancient Bronze Dragon",
+           "Family": "Dragon, Metallic",
+           "Level": 18,
+           "Alignment": "Lawful Good",
+           "Creature Type": "Dragon",
+           "Size": "Gargantuan"
+         },
+         {
+           "Name": "Ancient Copper Dragon",
+           "Family": "Dragon, Metallic",
+           "Level": 17,
+           "Alignment": "Chaotic Good",
+           "Creature Type": "Dragon",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Ancient Gold Dragon",
+           "Family": "Dragon, Metallic",
+           "Level": 20,
+           "Alignment": "Lawful Good",
+           "Creature Type": "Dragon",
+           "Size": "Gargantuan"
+         },
+         {
+           "Name": "Ancient Green Dragon",
+           "Family": "Dragon, Chromatic",
+           "Level": 17,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Dragon",
+           "Size": "Gargantuan"
+         },
+         {
+           "Name": "Ancient Magma Dragon",
+           "Family": "Dragon, Magma",
+           "Level": 18,
+           "Alignment": "Chaotic Neutral",
+           "Creature Type": "Dragon",
+           "Size": "Gargantuan"
+         },
+         {
+           "Name": "Ancient Red Dragon",
+           "Family": "Dragon, Chromatic",
+           "Level": 19,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Dragon",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Ancient Silver Dragon",
+           "Family": "Dragon, Metallic",
+           "Level": 19,
+           "Alignment": "Lawful Good",
+           "Creature Type": "Dragon",
+           "Size": "Gargantuan"
+         },
+         {
+           "Name": "Ancient White Dragon",
+           "Family": "Dragon, Chromatic",
+           "Level": 15,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Dragon",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Animated Armor",
+           "Family": "Animated Object",
+           "Level": 2,
+           "Alignment": "Neutral",
+           "Creature Type": "Construct",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Animated Broom",
+           "Family": "Animated Object",
+           "Level": -1,
+           "Alignment": "Neutral",
+           "Creature Type": "Construct",
+           "Size": "Small"
+         },
+         {
+           "Name": "Animated Statue",
+           "Family": "Animated Object",
+           "Level": 3,
+           "Alignment": "Neutral",
+           "Creature Type": "Construct",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Ankhrav",
+           "Family": "Ankhrav",
+           "Level": 3,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Large"
+         },
+         {
+           "Name": "Ankylosaurus",
+           "Family": "Dinosaur",
+           "Level": 6,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Annis Hag",
+           "Family": "Hag",
+           "Level": 6,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Large"
+         },
+         {
+           "Name": "Arbiter",
+           "Family": "Aeon",
+           "Level": 1,
+           "Alignment": "Lawful Neutral",
+           "Creature Type": "Monitor",
+           "Size": "Tiny"
+         },
+         {
+           "Name": "Arboreal Regent",
+           "Family": "Arboreal",
+           "Level": 8,
+           "Alignment": "Neutral Good",
+           "Creature Type": "Plant",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Arboreal Warden",
+           "Family": "Arboreal",
+           "Level": 4,
+           "Alignment": "Neutral Good",
+           "Creature Type": "Plant",
+           "Size": "Large"
+         },
+         {
+           "Name": "Asanbosam",
+           "Family": "",
+           "Level": 6,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Large"
+         },
+         {
+           "Name": "Astradaemon (Void Daemon)",
+           "Family": "Daemon",
+           "Level": 16,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Fiend",
+           "Size": "Large"
+         },
+         {
+           "Name": "Astral Deva (Emissary Angel)",
+           "Family": "Angel",
+           "Level": 14,
+           "Alignment": "Neutral Good",
+           "Creature Type": "Celestial",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Augur",
+           "Family": "Velstrac",
+           "Level": 1,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Fiend",
+           "Size": "Tiny"
+         },
+         {
+           "Name": "Awakened Tree",
+           "Family": "Arboreal",
+           "Level": 6,
+           "Alignment": "Neutral",
+           "Creature Type": "Plant",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Axiomite",
+           "Family": "Aeon",
+           "Level": 8,
+           "Alignment": "Lawful Neutral",
+           "Creature Type": "Monitor",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Azure Worm",
+           "Family": "Cave Worm",
+           "Level": 15,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Gargantuan"
+         },
+         {
+           "Name": "Balisse (Confessor Angel)",
+           "Family": "Angel",
+           "Level": 8,
+           "Alignment": "Neutral Good",
+           "Creature Type": "Celestial",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Ball Python",
+           "Family": "Snake",
+           "Level": 1,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Balor (Fire Demon)",
+           "Family": "Demon",
+           "Level": 20,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Fiend",
+           "Size": "Large"
+         },
+         {
+           "Name": "Banshee",
+           "Family": "",
+           "Level": 17,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Spirit",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Baomel",
+           "Family": "",
+           "Level": 20,
+           "Alignment": "Chaotic Neutral",
+           "Creature Type": "Aberration",
+           "Size": "Gargantuan"
+         },
+         {
+           "Name": "Barbazu (Bearded Devil)",
+           "Family": "Devil",
+           "Level": 5,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Fiend",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Barghest",
+           "Family": "Barghest",
+           "Level": 4,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Fiend",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Basilisk",
+           "Family": "",
+           "Level": 5,
+           "Alignment": "Neutral",
+           "Creature Type": "Beast",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Bida",
+           "Family": "",
+           "Level": 8,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Dragon",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Biloko Veteran",
+           "Family": "Biloko",
+           "Level": 4,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Fey",
+           "Size": "Small"
+         },
+         {
+           "Name": "Biloko Warrior",
+           "Family": "Biloko",
+           "Level": 1,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Fey",
+           "Size": "Small"
+         },
+         {
+           "Name": "Black Pudding",
+           "Family": "Ooze",
+           "Level": 7,
+           "Alignment": "Neutral",
+           "Creature Type": "Ooze",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Blood Boar",
+           "Family": "",
+           "Level": 6,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Animal",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Blood Ooze",
+           "Family": "Ooze",
+           "Level": 4,
+           "Alignment": "Neutral",
+           "Creature Type": "Ooze",
+           "Size": "Large"
+         },
+         {
+           "Name": "Bloodlash Bush",
+           "Family": "Deadly Flora",
+           "Level": 2,
+           "Alignment": "Neutral",
+           "Creature Type": "Plant",
+           "Size": "Small"
+         },
+         {
+           "Name": "Bloodseeker",
+           "Family": "",
+           "Level": -1,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Tiny"
+         },
+         {
+           "Name": "Boar",
+           "Family": "Boar",
+           "Level": 2,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Boggard Scout",
+           "Family": "Boggard",
+           "Level": 1,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Boggard Swampseer",
+           "Family": "Boggard",
+           "Level": 3,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Boggard Warrior",
+           "Family": "Boggard",
+           "Level": 2,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Brain Collector",
+           "Family": "",
+           "Level": 8,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Aberration",
+           "Size": "Large"
+         },
+         {
+           "Name": "Brine Shark",
+           "Family": "Elemental, Water",
+           "Level": 3,
+           "Alignment": "Neutral",
+           "Creature Type": "Elemental",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Brontosaurus",
+           "Family": "Dinosaur",
+           "Level": 10,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Gargantuan"
+         },
+         {
+           "Name": "Bugbear Thug",
+           "Family": "Bugbear",
+           "Level": 2,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Bugbear Tormentor",
+           "Family": "Bugbear",
+           "Level": 3,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Bulette",
+           "Family": "",
+           "Level": 8,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Bunyip",
+           "Family": "",
+           "Level": 3,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Cacodaemon (Harvester Daemon)",
+           "Family": "Daemon",
+           "Level": 1,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Fiend",
+           "Size": "Tiny"
+         },
+         {
+           "Name": "Caligni Creeper",
+           "Family": "Caligni",
+           "Level": 2,
+           "Alignment": "Chaotic Neutral",
+           "Creature Type": "Humanoid",
+           "Size": "Small"
+         },
+         {
+           "Name": "Caligni Dancer",
+           "Family": "Caligni",
+           "Level": 1,
+           "Alignment": "Chaotic Neutral",
+           "Creature Type": "Humanoid",
+           "Size": "Small"
+         },
+         {
+           "Name": "Caligni Stalker",
+           "Family": "Caligni",
+           "Level": 4,
+           "Alignment": "Chaotic Neutral",
+           "Creature Type": "Humanoid",
+           "Size": "Small"
+         },
+         {
+           "Name": "Carnivorous Crystal",
+           "Family": "",
+           "Level": 11,
+           "Alignment": "Neutral",
+           "Creature Type": "Ooze",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Cassisian (Archive Angel)",
+           "Family": "Angel",
+           "Level": 1,
+           "Alignment": "Neutral Good",
+           "Creature Type": "Celestial",
+           "Size": "Tiny"
+         },
+         {
+           "Name": "Catfolk Pouncer",
+           "Family": "Catfolk",
+           "Level": 1,
+           "Alignment": "Chaotic Good",
+           "Creature Type": "Humanoid",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Cauthooj",
+           "Family": "",
+           "Level": 12,
+           "Alignment": "Neutral",
+           "Creature Type": "Beast",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Cave Bear",
+           "Family": "Bear",
+           "Level": 6,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Large"
+         },
+         {
+           "Name": "Centaur",
+           "Family": "",
+           "Level": 3,
+           "Alignment": "Neutral",
+           "Creature Type": "Beast",
+           "Size": "Large"
+         },
+         {
+           "Name": "Centipede Swarm",
+           "Family": "Centipede",
+           "Level": 3,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Large"
+         },
+         {
+           "Name": "Ceustodaemon (Guardian Daemon)",
+           "Family": "Daemon",
+           "Level": 6,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Fiend",
+           "Size": "Large"
+         },
+         {
+           "Name": "Changeling Exile",
+           "Family": "Changeling",
+           "Level": 3,
+           "Alignment": "Chaotic Neutral",
+           "Creature Type": "Humanoid",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Charau-ka Acolyte of Angazhan",
+           "Family": "Charau-ka",
+           "Level": 3,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Small"
+         },
+         {
+           "Name": "Charau-ka Butcher",
+           "Family": "Charau-ka",
+           "Level": 6,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Small"
+         },
+         {
+           "Name": "Charau-ka Warrior",
+           "Family": "Charau-ka",
+           "Level": 1,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Small"
+         },
+         {
+           "Name": "Chimera",
+           "Family": "",
+           "Level": 8,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Beast",
+           "Size": "Large"
+         },
+         {
+           "Name": "Choral (Choir Angel)",
+           "Family": "Angel",
+           "Level": 6,
+           "Alignment": "Neutral Good",
+           "Creature Type": "Celestial",
+           "Size": "Small"
+         },
+         {
+           "Name": "Chuul",
+           "Family": "",
+           "Level": 7,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Aberration",
+           "Size": "Large"
+         },
+         {
+           "Name": "Cinder Rat",
+           "Family": "Elemental, Fire",
+           "Level": 3,
+           "Alignment": "Neutral",
+           "Creature Type": "Elemental",
+           "Size": "Small"
+         },
+         {
+           "Name": "Clay Golem",
+           "Family": "Golem",
+           "Level": 10,
+           "Alignment": "Neutral",
+           "Creature Type": "Construct",
+           "Size": "Large"
+         },
+         {
+           "Name": "Cloaker",
+           "Family": "",
+           "Level": 5,
+           "Alignment": "Chaotic Neutral",
+           "Creature Type": "Aberration",
+           "Size": "Large"
+         },
+         {
+           "Name": "Cloud Giant",
+           "Family": "Giant",
+           "Level": 11,
+           "Alignment": "Neutral",
+           "Creature Type": "Giant",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Cockatrice",
+           "Family": "",
+           "Level": 3,
+           "Alignment": "Neutral",
+           "Creature Type": "Beast",
+           "Size": "Small"
+         },
+         {
+           "Name": "Crag Linnorm",
+           "Family": "Linnorm",
+           "Level": 14,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Dragon",
+           "Size": "Gargantuan"
+         },
+         {
+           "Name": "Crimson Worm",
+           "Family": "Cave Worm",
+           "Level": 18,
+           "Alignment": "Neutral",
+           "Creature Type": "Beast",
+           "Size": "Gargantuan"
+         },
+         {
+           "Name": "Crocodile",
+           "Family": "Crocodile",
+           "Level": 2,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Large"
+         },
+         {
+           "Name": "Cyclops",
+           "Family": "Cyclops",
+           "Level": 5,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Giant",
+           "Size": "Large"
+         },
+         {
+           "Name": "Daeodon",
+           "Family": "Boar",
+           "Level": 4,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Large"
+         },
+         {
+           "Name": "Dalos",
+           "Family": "",
+           "Level": 13,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Fey",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Dandasuka",
+           "Family": "Rakshasa",
+           "Level": 5,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Fiend",
+           "Size": "Small"
+         },
+         {
+           "Name": "Dark Naga",
+           "Family": "Naga",
+           "Level": 7,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Aberration",
+           "Size": "Large"
+         },
+         {
+           "Name": "Deadly Mantis",
+           "Family": "Mantis, Giant",
+           "Level": 11,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Gargantuan"
+         },
+         {
+           "Name": "Deculi",
+           "Family": "",
+           "Level": 12,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Beast",
+           "Size": "Large"
+         },
+         {
+           "Name": "Deep Gnome Rockwarden",
+           "Family": "Deep Gnome",
+           "Level": 5,
+           "Alignment": "Neutral",
+           "Creature Type": "Humanoid",
+           "Size": "Small"
+         },
+         {
+           "Name": "Deep Gnome Scout",
+           "Family": "Deep Gnome",
+           "Level": 1,
+           "Alignment": "Neutral",
+           "Creature Type": "Humanoid",
+           "Size": "Small"
+         },
+         {
+           "Name": "Deep Gnome Warrior",
+           "Family": "Deep Gnome",
+           "Level": 2,
+           "Alignment": "Neutral",
+           "Creature Type": "Humanoid",
+           "Size": "Small"
+         },
+         {
+           "Name": "Deinonychus",
+           "Family": "Dinosaur",
+           "Level": 2,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Deinosuchus",
+           "Family": "Crocodile",
+           "Level": 9,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Demilich",
+           "Family": "Lich",
+           "Level": 15,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Undead",
+           "Size": "Tiny"
+         },
+         {
+           "Name": "Dero Magister",
+           "Family": "Dero",
+           "Level": 5,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Small"
+         },
+         {
+           "Name": "Dero Stalker",
+           "Family": "Dero",
+           "Level": 2,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Small"
+         },
+         {
+           "Name": "Dero Strangler",
+           "Family": "Dero",
+           "Level": 3,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Small"
+         },
+         {
+           "Name": "Desert Drake",
+           "Family": "Drake",
+           "Level": 8,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Dragon",
+           "Size": "Large"
+         },
+         {
+           "Name": "Devourer",
+           "Family": "",
+           "Level": 11,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Undead",
+           "Size": "Large"
+         },
+         {
+           "Name": "Dezullon",
+           "Family": "",
+           "Level": 10,
+           "Alignment": "Neutral",
+           "Creature Type": "Plant",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Dhampir Wizard",
+           "Family": "Dhampir",
+           "Level": 2,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Dire Wolf",
+           "Family": "Wolf",
+           "Level": 3,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Large"
+         },
+         {
+           "Name": "Djinni",
+           "Family": "Genie",
+           "Level": 5,
+           "Alignment": "Chaotic Good",
+           "Creature Type": "Elemental",
+           "Size": "Large"
+         },
+         {
+           "Name": "Doorwarden",
+           "Family": "",
+           "Level": 5,
+           "Alignment": "Lawful Neutral",
+           "Creature Type": "Construct",
+           "Size": "Large"
+         },
+         {
+           "Name": "Doppelganger",
+           "Family": "",
+           "Level": 3,
+           "Alignment": "Neutral",
+           "Creature Type": "Humanoid",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Dragon Turtle",
+           "Family": "",
+           "Level": 9,
+           "Alignment": "Neutral",
+           "Creature Type": "Dragon",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Dragonscarred Dead",
+           "Family": "",
+           "Level": 13,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Undead",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Drakauthix",
+           "Family": "",
+           "Level": 9,
+           "Alignment": "Neutral",
+           "Creature Type": "Fungus",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Drider",
+           "Family": "Fleshwarp",
+           "Level": 6,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Aberration",
+           "Size": "Large"
+         },
+         {
+           "Name": "Drow Fighter",
+           "Family": "Drow",
+           "Level": 1,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Drow Priestess",
+           "Family": "Drow",
+           "Level": 3,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Drow Rogue",
+           "Family": "Drow",
+           "Level": 2,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Dryad Queen (Hamadryad)",
+           "Family": "Nymph",
+           "Level": 13,
+           "Alignment": "Chaotic Good",
+           "Creature Type": "Fey",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Dryad",
+           "Family": "Nymph",
+           "Level": 3,
+           "Alignment": "Chaotic Good",
+           "Creature Type": "Fey",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Duergar Bombardier",
+           "Family": "Duergar",
+           "Level": 1,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Duergar Sharpshooter",
+           "Family": "Duergar",
+           "Level": 0,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Duergar Taskmaster",
+           "Family": "Duergar",
+           "Level": 2,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Dullahan",
+           "Family": "",
+           "Level": 7,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Undead",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Duskwalker Ghost Hunter",
+           "Family": "Planar Scion",
+           "Level": 4,
+           "Alignment": "Neutral",
+           "Creature Type": "Humanoid",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Eagle",
+           "Family": "Eagle",
+           "Level": -1,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Small"
+         },
+         {
+           "Name": "Earth Mephit",
+           "Family": "Elemental, Mephit",
+           "Level": 1,
+           "Alignment": "Neutral",
+           "Creature Type": "Elemental",
+           "Size": "Small"
+         },
+         {
+           "Name": "Efreeti",
+           "Family": "Genie",
+           "Level": 9,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Elemental",
+           "Size": "Large"
+         },
+         {
+           "Name": "Elananx",
+           "Family": "",
+           "Level": 6,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Fey",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Electric Eel",
+           "Family": "Eel",
+           "Level": 1,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Small"
+         },
+         {
+           "Name": "Elemental Avalanche",
+           "Family": "Elemental, Earth",
+           "Level": 11,
+           "Alignment": "Neutral",
+           "Creature Type": "Elemental",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Elemental Hurricane",
+           "Family": "Elemental, Air",
+           "Level": 11,
+           "Alignment": "Neutral",
+           "Creature Type": "Elemental",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Elemental Inferno",
+           "Family": "Elemental, Fire",
+           "Level": 11,
+           "Alignment": "Neutral",
+           "Creature Type": "Elemental",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Elemental Tsunami",
+           "Family": "Elemental, Water",
+           "Level": 11,
+           "Alignment": "Neutral",
+           "Creature Type": "Elemental",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Elephant",
+           "Family": "Elephant",
+           "Level": 7,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Eloko",
+           "Family": "Biloko",
+           "Level": 7,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Fey",
+           "Size": "Small"
+         },
+         {
+           "Name": "Emperor Bird",
+           "Family": "",
+           "Level": 2,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Erinys (Fury Devil)",
+           "Family": "Devil",
+           "Level": 8,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Fiend",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Ether Spider",
+           "Family": "",
+           "Level": 5,
+           "Alignment": "Neutral",
+           "Creature Type": "Beast",
+           "Size": "Large"
+         },
+         {
+           "Name": "Ettin",
+           "Family": "",
+           "Level": 6,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Giant",
+           "Size": "Large"
+         },
+         {
+           "Name": "Evangelist",
+           "Family": "Velstrac",
+           "Level": 6,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Fiend",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Faceless Stalker (Ugothol)",
+           "Family": "Alghollthu",
+           "Level": 4,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Aberration",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Faerie Dragon",
+           "Family": "",
+           "Level": 2,
+           "Alignment": "Chaotic Good",
+           "Creature Type": "Dragon",
+           "Size": "Tiny"
+         },
+         {
+           "Name": "Fire Giant",
+           "Family": "Giant",
+           "Level": 10,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Giant",
+           "Size": "Large"
+         },
+         {
+           "Name": "Fire Mephit",
+           "Family": "Elemental, Mephit",
+           "Level": 1,
+           "Alignment": "Neutral",
+           "Creature Type": "Elemental",
+           "Size": "Small"
+         },
+         {
+           "Name": "Firewyrm",
+           "Family": "Elemental, Fire",
+           "Level": 9,
+           "Alignment": "Neutral",
+           "Creature Type": "Elemental",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Flame Drake",
+           "Family": "Drake",
+           "Level": 5,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Dragon",
+           "Size": "Large"
+         },
+         {
+           "Name": "Flash Beetle",
+           "Family": "Beetle",
+           "Level": -1,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Small"
+         },
+         {
+           "Name": "Flesh Golem",
+           "Family": "Golem",
+           "Level": 8,
+           "Alignment": "Neutral",
+           "Creature Type": "Construct",
+           "Size": "Large"
+         },
+         {
+           "Name": "Forge-Spurned",
+           "Family": "",
+           "Level": 5,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Undead",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Frost Drake",
+           "Family": "Drake",
+           "Level": 7,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Dragon",
+           "Size": "Large"
+         },
+         {
+           "Name": "Frost Giant",
+           "Family": "Giant",
+           "Level": 9,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Giant",
+           "Size": "Large"
+         },
+         {
+           "Name": "Fungus Leshy",
+           "Family": "Leshy",
+           "Level": 2,
+           "Alignment": "Neutral",
+           "Creature Type": "Fungus",
+           "Size": "Small"
+         },
+         {
+           "Name": "Gancanagh (Passion Azata)",
+           "Family": "Azata",
+           "Level": 4,
+           "Alignment": "Chaotic Good",
+           "Creature Type": "Celestial",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Gargoyle",
+           "Family": "",
+           "Level": 4,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Beast",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Gashadokuro",
+           "Family": "",
+           "Level": 13,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Undead",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Gelatinous Cube",
+           "Family": "Ooze",
+           "Level": 3,
+           "Alignment": "Neutral",
+           "Creature Type": "Ooze",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Gelugon (Ice Devil)",
+           "Family": "Devil",
+           "Level": 13,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Fiend",
+           "Size": "Large"
+         },
+         {
+           "Name": "Ghaele (Crusader Azata)",
+           "Family": "Azata",
+           "Level": 13,
+           "Alignment": "Chaotic Good",
+           "Creature Type": "Celestial",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Ghast",
+           "Family": "Ghoul",
+           "Level": 2,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Undead",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Ghost Commoner",
+           "Family": "Ghost",
+           "Level": 4,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Spirit",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Ghost Mage",
+           "Family": "Ghost",
+           "Level": 10,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Spirit",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Ghoul",
+           "Family": "Ghoul",
+           "Level": 1,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Undead",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Giant Anaconda",
+           "Family": "Snake",
+           "Level": 8,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Giant Animated Statue",
+           "Family": "Animated Object",
+           "Level": 7,
+           "Alignment": "Neutral",
+           "Creature Type": "Construct",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Giant Bat",
+           "Family": "Bat",
+           "Level": 2,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Large"
+         },
+         {
+           "Name": "Giant Centipede",
+           "Family": "Centipede",
+           "Level": -1,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Giant Eagle",
+           "Family": "Eagle",
+           "Level": 3,
+           "Alignment": "Neutral Good",
+           "Creature Type": "Beast",
+           "Size": "Large"
+         },
+         {
+           "Name": "Giant Flytrap",
+           "Family": "Flytrap",
+           "Level": 10,
+           "Alignment": "Neutral",
+           "Creature Type": "Plant",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Giant Frilled Lizard",
+           "Family": "Lizard",
+           "Level": 5,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Large"
+         },
+         {
+           "Name": "Giant Gecko",
+           "Family": "Lizard",
+           "Level": 1,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Giant Mantis",
+           "Family": "Mantis, Giant",
+           "Level": 3,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Large"
+         },
+         {
+           "Name": "Giant Monitor Lizard",
+           "Family": "Lizard",
+           "Level": 2,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Giant Moray Eel",
+           "Family": "Eel",
+           "Level": 5,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Large"
+         },
+         {
+           "Name": "Giant Octopus",
+           "Family": "",
+           "Level": 8,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Giant Rat",
+           "Family": "Rat",
+           "Level": -1,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Small"
+         },
+         {
+           "Name": "Giant Scorpion",
+           "Family": "Scorpion",
+           "Level": 3,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Large"
+         },
+         {
+           "Name": "Giant Stag Beetle",
+           "Family": "Beetle",
+           "Level": 4,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Large"
+         },
+         {
+           "Name": "Giant Tarantula",
+           "Family": "Spider",
+           "Level": 6,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Large"
+         },
+         {
+           "Name": "Giant Viper",
+           "Family": "Snake",
+           "Level": 2,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Giant Wasp",
+           "Family": "Wasp",
+           "Level": 3,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Large"
+         },
+         {
+           "Name": "Gibbering Mouther",
+           "Family": "",
+           "Level": 5,
+           "Alignment": "Neutral",
+           "Creature Type": "Aberration",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Gimmerling",
+           "Family": "",
+           "Level": 12,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Fey",
+           "Size": "Small"
+         },
+         {
+           "Name": "Glabrezu (Treachery Demon)",
+           "Family": "Demon",
+           "Level": 13,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Fiend",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Gnoll Cultist",
+           "Family": "Gnoll",
+           "Level": 3,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Gnoll Hunter",
+           "Family": "Gnoll",
+           "Level": 2,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Large"
+         },
+         {
+           "Name": "Gnoll Sergeant",
+           "Family": "Gnoll",
+           "Level": 4,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Goblin Commando",
+           "Family": "Goblin",
+           "Level": 1,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Small"
+         },
+         {
+           "Name": "Goblin Dog",
+           "Family": "",
+           "Level": 1,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Goblin Pyro",
+           "Family": "Goblin",
+           "Level": 1,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Small"
+         },
+         {
+           "Name": "Goblin War Chanter",
+           "Family": "Goblin",
+           "Level": 1,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Small"
+         },
+         {
+           "Name": "Goblin Warrior",
+           "Family": "Goblin",
+           "Level": -1,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Small"
+         },
+         {
+           "Name": "Gogiteth",
+           "Family": "",
+           "Level": 12,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Aberration",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Goliath Spider",
+           "Family": "Spider",
+           "Level": 11,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Gargantuan"
+         },
+         {
+           "Name": "Gorilla",
+           "Family": "Ape",
+           "Level": 3,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Large"
+         },
+         {
+           "Name": "Gourd Leshy",
+           "Family": "Leshy",
+           "Level": 1,
+           "Alignment": "Neutral",
+           "Creature Type": "Plant",
+           "Size": "Small"
+         },
+         {
+           "Name": "Grauladon",
+           "Family": "",
+           "Level": 2,
+           "Alignment": "Neutral",
+           "Creature Type": "Dragon",
+           "Size": "Large"
+         },
+         {
+           "Name": "Graveknight",
+           "Family": "",
+           "Level": 10,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Undead",
+           "Size": "Large"
+         },
+         {
+           "Name": "Graveshell",
+           "Family": "",
+           "Level": 1,
+           "Alignment": "Neutral",
+           "Creature Type": "Beast",
+           "Size": "Large"
+         },
+         {
+           "Name": "Great Cyclops",
+           "Family": "Cyclops",
+           "Level": 12,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Giant",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Great White Shark",
+           "Family": "Shark",
+           "Level": 4,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Greater Barghest",
+           "Family": "Barghest",
+           "Level": 7,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Fiend",
+           "Size": "Large"
+         },
+         {
+           "Name": "Greater Nightmare",
+           "Family": "Nightmare",
+           "Level": 11,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Beast",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Greater Shadow",
+           "Family": "Shadow",
+           "Level": 7,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Undead",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Green Hag",
+           "Family": "Hag",
+           "Level": 4,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Griffon",
+           "Family": "",
+           "Level": 4,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Large"
+         },
+         {
+           "Name": "Grig",
+           "Family": "Sprite",
+           "Level": 1,
+           "Alignment": "Chaotic Neutral",
+           "Creature Type": "Fey",
+           "Size": "Tiny"
+         },
+         {
+           "Name": "Grikkitog",
+           "Family": "",
+           "Level": 14,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Aberration",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Grim Reaper",
+           "Family": "Grim Reaper",
+           "Level": 21,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Undead",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Grippli Archer",
+           "Family": "Grippli",
+           "Level": 3,
+           "Alignment": "Neutral",
+           "Creature Type": "Humanoid",
+           "Size": "Small"
+         },
+         {
+           "Name": "Grippli Greenspeaker",
+           "Family": "Grippli",
+           "Level": 5,
+           "Alignment": "Neutral",
+           "Creature Type": "Humanoid",
+           "Size": "Small"
+         },
+         {
+           "Name": "Grippli Scout",
+           "Family": "Grippli",
+           "Level": 1,
+           "Alignment": "Neutral",
+           "Creature Type": "Humanoid",
+           "Size": "Small"
+         },
+         {
+           "Name": "Grizzly Bear",
+           "Family": "Bear",
+           "Level": 3,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Large"
+         },
+         {
+           "Name": "Grothlut",
+           "Family": "Fleshwarp",
+           "Level": 3,
+           "Alignment": "Neutral",
+           "Creature Type": "Aberration",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Guard Dog",
+           "Family": "Dog",
+           "Level": -1,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Small"
+         },
+         {
+           "Name": "Guardian Naga",
+           "Family": "Naga",
+           "Level": 10,
+           "Alignment": "Lawful Good",
+           "Creature Type": "Aberration",
+           "Size": "Large"
+         },
+         {
+           "Name": "Gug",
+           "Family": "",
+           "Level": 10,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Aberration",
+           "Size": "Large"
+         },
+         {
+           "Name": "Guthallath",
+           "Family": "",
+           "Level": 19,
+           "Alignment": "Neutral",
+           "Creature Type": "Construct",
+           "Size": "Gargantuan"
+         },
+         {
+           "Name": "Harpy",
+           "Family": "",
+           "Level": 5,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Hell Hound",
+           "Family": "Hell Hound",
+           "Level": 3,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Beast",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Hellcrown",
+           "Family": "",
+           "Level": 1,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Undead",
+           "Size": "Tiny"
+         },
+         {
+           "Name": "Hill Giant",
+           "Family": "Giant",
+           "Level": 7,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Giant",
+           "Size": "Large"
+         },
+         {
+           "Name": "Hive Mother",
+           "Family": "Ankhrav",
+           "Level": 8,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Hobgoblin Archer",
+           "Family": "Hobgoblin",
+           "Level": 4,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Hobgoblin General",
+           "Family": "Hobgoblin",
+           "Level": 6,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Hobgoblin Soldier",
+           "Family": "Hobgoblin",
+           "Level": 1,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Homunculus",
+           "Family": "",
+           "Level": 0,
+           "Alignment": "Neutral",
+           "Creature Type": "Construct",
+           "Size": "Tiny"
+         },
+         {
+           "Name": "Horned Archon",
+           "Family": "Archon",
+           "Level": 4,
+           "Alignment": "Lawful Good",
+           "Creature Type": "Celestial",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Hunting Spider",
+           "Family": "Spider",
+           "Level": 1,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Hyaenodon",
+           "Family": "Hyena",
+           "Level": 3,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Large"
+         },
+         {
+           "Name": "Hydra",
+           "Family": "",
+           "Level": 6,
+           "Alignment": "Neutral",
+           "Creature Type": "Beast",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Hyena",
+           "Family": "Hyena",
+           "Level": 1,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Ice Linnorm",
+           "Family": "Linnorm",
+           "Level": 17,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Dragon",
+           "Size": "Gargantuan"
+         },
+         {
+           "Name": "Imp",
+           "Family": "Devil",
+           "Level": 1,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Fiend",
+           "Size": "Tiny"
+         },
+         {
+           "Name": "Interlocutor",
+           "Family": "Velstrac",
+           "Level": 12,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Fiend",
+           "Size": "Large"
+         },
+         {
+           "Name": "Invisible Stalker",
+           "Family": "Elemental, Air",
+           "Level": 7,
+           "Alignment": "Neutral",
+           "Creature Type": "Elemental",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Iron Golem",
+           "Family": "Golem",
+           "Level": 13,
+           "Alignment": "Neutral",
+           "Creature Type": "Construct",
+           "Size": "Large"
+         },
+         {
+           "Name": "Janni",
+           "Family": "Genie",
+           "Level": 4,
+           "Alignment": "Neutral",
+           "Creature Type": "Elemental",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Jinkin",
+           "Family": "Gremlin",
+           "Level": 1,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Fey",
+           "Size": "Tiny"
+         },
+         {
+           "Name": "Jungle Drake",
+           "Family": "Drake",
+           "Level": 6,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Dragon",
+           "Size": "Large"
+         },
+         {
+           "Name": "Kalavakus (Slaver Demon)",
+           "Family": "Demon",
+           "Level": 10,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Fiend",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Keketar",
+           "Family": "Protean",
+           "Level": 17,
+           "Alignment": "Chaotic Neutral",
+           "Creature Type": "Monitor",
+           "Size": "Large"
+         },
+         {
+           "Name": "Kishi",
+           "Family": "",
+           "Level": 8,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Fey",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Kobold Dragon Mage",
+           "Family": "Kobold",
+           "Level": 2,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Small"
+         },
+         {
+           "Name": "Kobold Scout",
+           "Family": "Kobold",
+           "Level": 1,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Small"
+         },
+         {
+           "Name": "Kobold Warrior",
+           "Family": "Kobold",
+           "Level": -1,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Small"
+         },
+         {
+           "Name": "Kolyarut",
+           "Family": "Aeon",
+           "Level": 12,
+           "Alignment": "Lawful Neutral",
+           "Creature Type": "Monitor",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Kraken",
+           "Family": "",
+           "Level": 18,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Beast",
+           "Size": "Gargantuan"
+         },
+         {
+           "Name": "Krooth",
+           "Family": "",
+           "Level": 8,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Large"
+         },
+         {
+           "Name": "Lamia Matriarch",
+           "Family": "Lamia",
+           "Level": 8,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Beast",
+           "Size": "Large"
+         },
+         {
+           "Name": "Lamia",
+           "Family": "Lamia",
+           "Level": 6,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Beast",
+           "Size": "Large"
+         },
+         {
+           "Name": "Lantern Archon",
+           "Family": "Archon",
+           "Level": 1,
+           "Alignment": "Lawful Good",
+           "Creature Type": "Celestial",
+           "Size": "Small"
+         },
+         {
+           "Name": "Leaf Leshy",
+           "Family": "Leshy",
+           "Level": 0,
+           "Alignment": "Neutral",
+           "Creature Type": "Plant",
+           "Size": "Small"
+         },
+         {
+           "Name": "Legion Archon",
+           "Family": "Archon",
+           "Level": 7,
+           "Alignment": "Lawful Good",
+           "Creature Type": "Celestial",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Lemure",
+           "Family": "Devil",
+           "Level": 0,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Fiend",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Leopard",
+           "Family": "Cat",
+           "Level": 2,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Lesser Death",
+           "Family": "Grim Reaper",
+           "Level": 16,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Undead",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Leukodaemon (Pestilence Daemon)",
+           "Family": "Daemon",
+           "Level": 9,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Fiend",
+           "Size": "Large"
+         },
+         {
+           "Name": "Lich",
+           "Family": "Lich",
+           "Level": 12,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Undead",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Lillend (Muse Azata)",
+           "Family": "Azata",
+           "Level": 7,
+           "Alignment": "Chaotic Good",
+           "Creature Type": "Celestial",
+           "Size": "Large"
+         },
+         {
+           "Name": "Lion",
+           "Family": "Cat",
+           "Level": 3,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Large"
+         },
+         {
+           "Name": "Living Landslide",
+           "Family": "Elemental, Earth",
+           "Level": 5,
+           "Alignment": "Neutral",
+           "Creature Type": "Elemental",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Living Sap",
+           "Family": "",
+           "Level": 6,
+           "Alignment": "Neutral",
+           "Creature Type": "Ooze",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Living Waterfall",
+           "Family": "Elemental, Water",
+           "Level": 5,
+           "Alignment": "Neutral",
+           "Creature Type": "Elemental",
+           "Size": "Large"
+         },
+         {
+           "Name": "Living Whirlwind",
+           "Family": "Elemental, Air",
+           "Level": 5,
+           "Alignment": "Neutral",
+           "Creature Type": "Elemental",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Living Wildfire",
+           "Family": "Elemental, Fire",
+           "Level": 5,
+           "Alignment": "Neutral",
+           "Creature Type": "Elemental",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Lizardfolk Defender",
+           "Family": "Lizardfolk",
+           "Level": 1,
+           "Alignment": "Neutral",
+           "Creature Type": "Humanoid",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Lizardfolk Scout",
+           "Family": "Lizardfolk",
+           "Level": 1,
+           "Alignment": "Neutral",
+           "Creature Type": "Humanoid",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Lizardfolk Stargazer",
+           "Family": "Lizardfolk",
+           "Level": 2,
+           "Alignment": "Neutral",
+           "Creature Type": "Humanoid",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Lyrakien (Wanderer Azata)",
+           "Family": "Azata",
+           "Level": 1,
+           "Alignment": "Chaotic Good",
+           "Creature Type": "Celestial",
+           "Size": "Tiny"
+         },
+         {
+           "Name": "Mammoth",
+           "Family": "Elephant",
+           "Level": 10,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Manticore",
+           "Family": "",
+           "Level": 6,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Beast",
+           "Size": "Large"
+         },
+         {
+           "Name": "Marid",
+           "Family": "Genie",
+           "Level": 9,
+           "Alignment": "Chaotic Neutral",
+           "Creature Type": "Elemental",
+           "Size": "Large"
+         },
+         {
+           "Name": "Marilith (Pride Demon)",
+           "Family": "Demon",
+           "Level": 17,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Fiend",
+           "Size": "Large"
+         },
+         {
+           "Name": "Medusa",
+           "Family": "",
+           "Level": 7,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Megalodon",
+           "Family": "Shark",
+           "Level": 9,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Gargantuan"
+         },
+         {
+           "Name": "Megaprimatus",
+           "Family": "Ape",
+           "Level": 8,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Gargantuan"
+         },
+         {
+           "Name": "Merfolk Warrior",
+           "Family": "Merfolk",
+           "Level": 1,
+           "Alignment": "Neutral",
+           "Creature Type": "Humanoid",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Merfolk Wavecaller",
+           "Family": "Merfolk",
+           "Level": 2,
+           "Alignment": "Neutral",
+           "Creature Type": "Humanoid",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Mimic",
+           "Family": "",
+           "Level": 4,
+           "Alignment": "Neutral",
+           "Creature Type": "Aberration",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Minotaur",
+           "Family": "",
+           "Level": 4,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Large"
+         },
+         {
+           "Name": "Mitflit",
+           "Family": "Gremlin",
+           "Level": -1,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Fey",
+           "Size": "Small"
+         },
+         {
+           "Name": "Mokele-Mbembe",
+           "Family": "",
+           "Level": 9,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Morrigna",
+           "Family": "Psychopomp",
+           "Level": 15,
+           "Alignment": "Neutral",
+           "Creature Type": "Monitor",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Mu Spore",
+           "Family": "",
+           "Level": 21,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Fungus",
+           "Size": "Gargantuan"
+         },
+         {
+           "Name": "Mukradi",
+           "Family": "",
+           "Level": 15,
+           "Alignment": "Neutral",
+           "Creature Type": "Beast",
+           "Size": "Gargantuan"
+         },
+         {
+           "Name": "Mummy Guardian",
+           "Family": "Mummy",
+           "Level": 6,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Undead",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Mummy Pharaoh",
+           "Family": "Mummy",
+           "Level": 9,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Undead",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Naiad Queen",
+           "Family": "Nymph",
+           "Level": 7,
+           "Alignment": "Chaotic Good",
+           "Creature Type": "Fey",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Naiad",
+           "Family": "Nymph",
+           "Level": 1,
+           "Alignment": "Chaotic Good",
+           "Creature Type": "Fey",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Naunet",
+           "Family": "Protean",
+           "Level": 7,
+           "Alignment": "Chaotic Neutral",
+           "Creature Type": "Monitor",
+           "Size": "Large"
+         },
+         {
+           "Name": "Nessian Warhound",
+           "Family": "Hell Hound",
+           "Level": 9,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Beast",
+           "Size": "Large"
+         },
+         {
+           "Name": "Night Hag",
+           "Family": "Hag",
+           "Level": 9,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Fiend",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Nightmare",
+           "Family": "Nightmare",
+           "Level": 6,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Beast",
+           "Size": "Large"
+         },
+         {
+           "Name": "Nilith",
+           "Family": "",
+           "Level": 10,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Aberration",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Nosoi",
+           "Family": "Psychopomp",
+           "Level": 1,
+           "Alignment": "Neutral",
+           "Creature Type": "Monitor",
+           "Size": "Tiny"
+         },
+         {
+           "Name": "Ochre Jelly",
+           "Family": "Ooze",
+           "Level": 5,
+           "Alignment": "Neutral",
+           "Creature Type": "Ooze",
+           "Size": "Large"
+         },
+         {
+           "Name": "Ofalth",
+           "Family": "",
+           "Level": 10,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Aberration",
+           "Size": "Large"
+         },
+         {
+           "Name": "Ogre Boss",
+           "Family": "Ogre",
+           "Level": 7,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Giant",
+           "Size": "Large"
+         },
+         {
+           "Name": "Ogre Glutton",
+           "Family": "Ogre",
+           "Level": 4,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Giant",
+           "Size": "Large"
+         },
+         {
+           "Name": "Ogre Warrior",
+           "Family": "Ogre",
+           "Level": 3,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Giant",
+           "Size": "Large"
+         },
+         {
+           "Name": "Orc Brute",
+           "Family": "Orc",
+           "Level": 0,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Orc Warchief",
+           "Family": "Orc",
+           "Level": 2,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Orc Warrior",
+           "Family": "Orc",
+           "Level": 1,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Osyluth (Bone Devil)",
+           "Family": "Devil",
+           "Level": 9,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Fiend",
+           "Size": "Large"
+         },
+         {
+           "Name": "Otyugh",
+           "Family": "",
+           "Level": 4,
+           "Alignment": "Neutral",
+           "Creature Type": "Aberration",
+           "Size": "Large"
+         },
+         {
+           "Name": "Owlbear",
+           "Family": "",
+           "Level": 4,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Large"
+         },
+         {
+           "Name": "Pegasus",
+           "Family": "",
+           "Level": 3,
+           "Alignment": "Neutral Good",
+           "Creature Type": "Beast",
+           "Size": "Large"
+         },
+         {
+           "Name": "Phistophilus (Contract Devil)",
+           "Family": "Devil",
+           "Level": 10,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Fiend",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Phoenix",
+           "Family": "",
+           "Level": 15,
+           "Alignment": "Neutral Good",
+           "Creature Type": "Beast",
+           "Size": "Gargantuan"
+         },
+         {
+           "Name": "Pit Fiend (Tyrant Devil)",
+           "Family": "Devil",
+           "Level": 20,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Fiend",
+           "Size": "Large"
+         },
+         {
+           "Name": "Pixie",
+           "Family": "Sprite",
+           "Level": 4,
+           "Alignment": "Chaotic Neutral",
+           "Creature Type": "Fey",
+           "Size": "Small"
+         },
+         {
+           "Name": "Plague Zombie",
+           "Family": "Zombie",
+           "Level": 1,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Undead",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Pleroma",
+           "Family": "Aeon",
+           "Level": 20,
+           "Alignment": "Lawful Neutral",
+           "Creature Type": "Monitor",
+           "Size": "Large"
+         },
+         {
+           "Name": "Poltergeist",
+           "Family": "",
+           "Level": 5,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Spirit",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Poracha",
+           "Family": "",
+           "Level": 4,
+           "Alignment": "Neutral",
+           "Creature Type": "Beast",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Precentor",
+           "Family": "Velstrac",
+           "Level": 16,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Fiend",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Pteranodon",
+           "Family": "Pterosaur",
+           "Level": 2,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Large"
+         },
+         {
+           "Name": "Pugwampi",
+           "Family": "Gremlin",
+           "Level": 0,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Fey",
+           "Size": "Tiny"
+         },
+         {
+           "Name": "Purple Worm",
+           "Family": "Cave Worm",
+           "Level": 13,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Gargantuan"
+         },
+         {
+           "Name": "Quasit",
+           "Family": "Demon",
+           "Level": 1,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Fiend",
+           "Size": "Tiny"
+         },
+         {
+           "Name": "Quatoid",
+           "Family": "Elemental, Water",
+           "Level": 7,
+           "Alignment": "Lawful Neutral",
+           "Creature Type": "Elemental",
+           "Size": "Small"
+         },
+         {
+           "Name": "Quelaunt",
+           "Family": "",
+           "Level": 15,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Aberration",
+           "Size": "Large"
+         },
+         {
+           "Name": "Quetzalcoatlus",
+           "Family": "Pterosaur",
+           "Level": 7,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Raja Rakshasa",
+           "Family": "Rakshasa",
+           "Level": 10,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Fiend",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Rat Swarm",
+           "Family": "Rat",
+           "Level": 1,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Large"
+         },
+         {
+           "Name": "Ratfolk Grenadier",
+           "Family": "Ratfolk",
+           "Level": 4,
+           "Alignment": "Lawful Neutral",
+           "Creature Type": "Humanoid",
+           "Size": "Small"
+         },
+         {
+           "Name": "Redcap",
+           "Family": "",
+           "Level": 5,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Fey",
+           "Size": "Small"
+         },
+         {
+           "Name": "Reefclaw",
+           "Family": "",
+           "Level": 1,
+           "Alignment": "Chaotic Neutral",
+           "Creature Type": "Aberration",
+           "Size": "Small"
+         },
+         {
+           "Name": "Remnant of Barzillai",
+           "Family": "",
+           "Level": 10,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Undead",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Remorhaz",
+           "Family": "",
+           "Level": 7,
+           "Alignment": "Neutral",
+           "Creature Type": "Beast",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Riding Dog",
+           "Family": "Dog",
+           "Level": 1,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Riding Horse",
+           "Family": "Horse",
+           "Level": 1,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Large"
+         },
+         {
+           "Name": "Riding Pony",
+           "Family": "Horse",
+           "Level": 0,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Medium"
+         },
+         {
+           "Name": "River Drake",
+           "Family": "Drake",
+           "Level": 3,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Dragon",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Roc",
+           "Family": "",
+           "Level": 9,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Gargantuan"
+         },
+         {
+           "Name": "Roper",
+           "Family": "",
+           "Level": 10,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Aberration",
+           "Size": "Large"
+         },
+         {
+           "Name": "Rune Giant",
+           "Family": "Giant",
+           "Level": 16,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Giant",
+           "Size": "Gargantuan"
+         },
+         {
+           "Name": "Rusalka",
+           "Family": "",
+           "Level": 12,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Fey",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Rust Monster",
+           "Family": "",
+           "Level": 3,
+           "Alignment": "Neutral",
+           "Creature Type": "Aberration",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Sabosan",
+           "Family": "",
+           "Level": 5,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Salamander",
+           "Family": "Elemental, Fire",
+           "Level": 7,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Elemental",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Satyr",
+           "Family": "",
+           "Level": 4,
+           "Alignment": "Chaotic Neutral",
+           "Creature Type": "Fey",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Scorpion Swarm",
+           "Family": "Scorpion",
+           "Level": 4,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Large"
+         },
+         {
+           "Name": "Sea Devil Baron",
+           "Family": "Sea Devil",
+           "Level": 6,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Sea Devil Brute",
+           "Family": "Sea Devil",
+           "Level": 4,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Sea Devil Scout",
+           "Family": "Sea Devil",
+           "Level": 2,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Sea Hag",
+           "Family": "Hag",
+           "Level": 3,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Sea Serpent",
+           "Family": "",
+           "Level": 12,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Gargantuan"
+         },
+         {
+           "Name": "Sewer Ooze",
+           "Family": "Ooze",
+           "Level": 1,
+           "Alignment": "Neutral",
+           "Creature Type": "Ooze",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Shadow Giant",
+           "Family": "Giant",
+           "Level": 13,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Giant",
+           "Size": "Large"
+         },
+         {
+           "Name": "Shadow",
+           "Family": "Shadow",
+           "Level": 4,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Undead",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Shaitan",
+           "Family": "Genie",
+           "Level": 7,
+           "Alignment": "Lawful Neutral",
+           "Creature Type": "Elemental",
+           "Size": "Large"
+         },
+         {
+           "Name": "Shambler",
+           "Family": "",
+           "Level": 6,
+           "Alignment": "Neutral",
+           "Creature Type": "Plant",
+           "Size": "Large"
+         },
+         {
+           "Name": "Shemhazian (Mutilation Demon)",
+           "Family": "Demon",
+           "Level": 16,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Fiend",
+           "Size": "Gargantuan"
+         },
+         {
+           "Name": "Shield Archon",
+           "Family": "Archon",
+           "Level": 10,
+           "Alignment": "Lawful Good",
+           "Creature Type": "Celestial",
+           "Size": "Large"
+         },
+         {
+           "Name": "Shining Child",
+           "Family": "",
+           "Level": 12,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Astral",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Shoggoth",
+           "Family": "",
+           "Level": 18,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Aberration",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Shuln",
+           "Family": "",
+           "Level": 12,
+           "Alignment": "Neutral",
+           "Creature Type": "Beast",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Simurgh",
+           "Family": "",
+           "Level": 18,
+           "Alignment": "Neutral Good",
+           "Creature Type": "Beast",
+           "Size": "Gargantuan"
+         },
+         {
+           "Name": "Sinspawn",
+           "Family": "",
+           "Level": 2,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Aberration",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Skeletal Champion",
+           "Family": "Skeleton",
+           "Level": 2,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Undead",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Skeletal Giant",
+           "Family": "Skeleton",
+           "Level": 3,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Undead",
+           "Size": "Large"
+         },
+         {
+           "Name": "Skeletal Horse",
+           "Family": "Skeleton",
+           "Level": 2,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Undead",
+           "Size": "Large"
+         },
+         {
+           "Name": "Skeletal Hulk",
+           "Family": "Skeleton",
+           "Level": 7,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Undead",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Skeleton Guard",
+           "Family": "Skeleton",
+           "Level": -1,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Undead",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Skulltaker",
+           "Family": "",
+           "Level": 18,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Undead",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Skum (Ulat-Kini)",
+           "Family": "Alghollthu",
+           "Level": 2,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Slurk",
+           "Family": "",
+           "Level": 2,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Smilodon",
+           "Family": "Cat",
+           "Level": 6,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Large"
+         },
+         {
+           "Name": "Snapping Flytrap",
+           "Family": "Flytrap",
+           "Level": 3,
+           "Alignment": "Neutral",
+           "Creature Type": "Plant",
+           "Size": "Large"
+         },
+         {
+           "Name": "Sod Hound",
+           "Family": "Elemental, Earth",
+           "Level": 3,
+           "Alignment": "Neutral",
+           "Creature Type": "Elemental",
+           "Size": "Small"
+         },
+         {
+           "Name": "Soulbound Doll",
+           "Family": "",
+           "Level": 2,
+           "Alignment": "Any",
+           "Creature Type": "Construct",
+           "Size": "Tiny"
+         },
+         {
+           "Name": "Soulbound Ruin",
+           "Family": "",
+           "Level": 15,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Construct",
+           "Size": "Gargantuan"
+         },
+         {
+           "Name": "Sphinx",
+           "Family": "",
+           "Level": 8,
+           "Alignment": "Neutral",
+           "Creature Type": "Beast",
+           "Size": "Large"
+         },
+         {
+           "Name": "Spider Swarm",
+           "Family": "Spider",
+           "Level": 0,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Large"
+         },
+         {
+           "Name": "Sprite",
+           "Family": "Sprite",
+           "Level": -1,
+           "Alignment": "Chaotic Neutral",
+           "Creature Type": "Fey",
+           "Size": "Tiny"
+         },
+         {
+           "Name": "Stegosaurus",
+           "Family": "Dinosaur",
+           "Level": 7,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Stone Giant",
+           "Family": "Giant",
+           "Level": 8,
+           "Alignment": "Neutral",
+           "Creature Type": "Giant",
+           "Size": "Large"
+         },
+         {
+           "Name": "Stone Golem",
+           "Family": "Golem",
+           "Level": 11,
+           "Alignment": "Neutral",
+           "Creature Type": "Construct",
+           "Size": "Large"
+         },
+         {
+           "Name": "Stone Mauler",
+           "Family": "Elemental, Earth",
+           "Level": 9,
+           "Alignment": "Neutral",
+           "Creature Type": "Elemental",
+           "Size": "Large"
+         },
+         {
+           "Name": "Storm Giant",
+           "Family": "Giant",
+           "Level": 13,
+           "Alignment": "Chaotic Good",
+           "Creature Type": "Giant",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Storm Lord",
+           "Family": "Elemental, Air",
+           "Level": 9,
+           "Alignment": "Neutral",
+           "Creature Type": "Elemental",
+           "Size": "Large"
+         },
+         {
+           "Name": "Succubus (Lust Demon)",
+           "Family": "Demon",
+           "Level": 7,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Fiend",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Tarn Linnorm",
+           "Family": "Linnorm",
+           "Level": 20,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Dragon",
+           "Size": "Gargantuan"
+         },
+         {
+           "Name": "Tengu Sneak",
+           "Family": "",
+           "Level": 2,
+           "Alignment": "Chaotic Neutral",
+           "Creature Type": "Humanoid",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Terotricus",
+           "Family": "",
+           "Level": 19,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Fungus",
+           "Size": "Gargantuan"
+         },
+         {
+           "Name": "Tidal Master",
+           "Family": "Elemental, Water",
+           "Level": 9,
+           "Alignment": "Neutral",
+           "Creature Type": "Elemental",
+           "Size": "Large"
+         },
+         {
+           "Name": "Tiefling Adept",
+           "Family": "Planar Scion",
+           "Level": 3,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Tiger",
+           "Family": "Cat",
+           "Level": 4,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Large"
+         },
+         {
+           "Name": "Tixitog",
+           "Family": "",
+           "Level": 3,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Aberration",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Tor Linnorm",
+           "Family": "Linnorm",
+           "Level": 21,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Dragon",
+           "Size": "Gargantuan"
+         },
+         {
+           "Name": "Treerazer",
+           "Family": "",
+           "Level": 25,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Fiend",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Triceratops",
+           "Family": "Dinosaur",
+           "Level": 8,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Troll King",
+           "Family": "Troll",
+           "Level": 10,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Giant",
+           "Size": "Large"
+         },
+         {
+           "Name": "Troll",
+           "Family": "Troll",
+           "Level": 5,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Giant",
+           "Size": "Large"
+         },
+         {
+           "Name": "Tyrannosaurus",
+           "Family": "Dinosaur",
+           "Level": 10,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Gargantuan"
+         },
+         {
+           "Name": "Unicorn",
+           "Family": "",
+           "Level": 3,
+           "Alignment": "Chaotic Good",
+           "Creature Type": "Beast",
+           "Size": "Large"
+         },
+         {
+           "Name": "Unseen Servant",
+           "Family": "",
+           "Level": -1,
+           "Alignment": "No Alignment",
+           "Creature Type": "",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Uthul",
+           "Family": "",
+           "Level": 14,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Elemental",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Vampire Bat Swarm",
+           "Family": "Bat",
+           "Level": 1,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Large"
+         },
+         {
+           "Name": "Vampire Count",
+           "Family": "Vampire",
+           "Level": 6,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Undead",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Vampire Mastermind",
+           "Family": "Vampire",
+           "Level": 9,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Undead",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Vampire Spawn Rogue",
+           "Family": "Vampire",
+           "Level": 4,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Undead",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Veiled Master (Vidileth)",
+           "Family": "Alghollthu",
+           "Level": 14,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Aberration",
+           "Size": "Large"
+         },
+         {
+           "Name": "Velociraptor",
+           "Family": "Dinosaur",
+           "Level": 1,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Small"
+         },
+         {
+           "Name": "Vine Lasher",
+           "Family": "Deadly Flora",
+           "Level": 0,
+           "Alignment": "Neutral",
+           "Creature Type": "Plant",
+           "Size": "Small"
+         },
+         {
+           "Name": "Viper",
+           "Family": "Snake",
+           "Level": -1,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Tiny"
+         },
+         {
+           "Name": "Voidworm",
+           "Family": "Protean",
+           "Level": 1,
+           "Alignment": "Chaotic Neutral",
+           "Creature Type": "Monitor",
+           "Size": "Tiny"
+         },
+         {
+           "Name": "Vrock (Wrath Demon)",
+           "Family": "Demon",
+           "Level": 9,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Fiend",
+           "Size": "Large"
+         },
+         {
+           "Name": "War Horse",
+           "Family": "Horse",
+           "Level": 2,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Large"
+         },
+         {
+           "Name": "War Pony",
+           "Family": "Horse",
+           "Level": 1,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Warg",
+           "Family": "Warg",
+           "Level": 2,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Beast",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Warsworn",
+           "Family": "",
+           "Level": 16,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Undead",
+           "Size": "Gargantuan"
+         },
+         {
+           "Name": "Wasp Swarm",
+           "Family": "Wasp",
+           "Level": 4,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Large"
+         },
+         {
+           "Name": "Water Mephit",
+           "Family": "Elemental, Mephit",
+           "Level": 1,
+           "Alignment": "Neutral",
+           "Creature Type": "Elemental",
+           "Size": "Small"
+         },
+         {
+           "Name": "Web Lurker",
+           "Family": "",
+           "Level": 3,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Aberration",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Wemmuth",
+           "Family": "",
+           "Level": 15,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Plant",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Wendigo",
+           "Family": "",
+           "Level": 17,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Beast",
+           "Size": "Large"
+         },
+         {
+           "Name": "Werebear",
+           "Family": "Werecreature",
+           "Level": 4,
+           "Alignment": "Lawful Good",
+           "Creature Type": "Beast",
+           "Size": "Large"
+         },
+         {
+           "Name": "Wererat",
+           "Family": "Werecreature",
+           "Level": 2,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Beast",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Werewolf",
+           "Family": "Werecreature",
+           "Level": 3,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Beast",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Wight",
+           "Family": "",
+           "Level": 3,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Undead",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Will-o’-Wisp",
+           "Family": "",
+           "Level": 6,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Aberration",
+           "Size": "Small"
+         },
+         {
+           "Name": "Winter Wolf",
+           "Family": "Warg",
+           "Level": 5,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Beast",
+           "Size": "Large"
+         },
+         {
+           "Name": "Wolf",
+           "Family": "Wolf",
+           "Level": 1,
+           "Alignment": "Neutral",
+           "Creature Type": "Animal",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Wraith",
+           "Family": "",
+           "Level": 6,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Undead",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Wyvern",
+           "Family": "Drake",
+           "Level": 6,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Dragon",
+           "Size": "Large"
+         },
+         {
+           "Name": "Xorn",
+           "Family": "Elemental, Earth",
+           "Level": 7,
+           "Alignment": "Neutral",
+           "Creature Type": "Elemental",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Xulgath Leader",
+           "Family": "Xulgath",
+           "Level": 3,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Xulgath Skulker",
+           "Family": "Xulgath",
+           "Level": 2,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Xulgath Warrior",
+           "Family": "Xulgath",
+           "Level": 1,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Humanoid",
+           "Size": "Medium"
+         },
+         {
+           "Name": "Yeti",
+           "Family": "",
+           "Level": 5,
+           "Alignment": "Neutral",
+           "Creature Type": "Humanoid",
+           "Size": "Large"
+         },
+         {
+           "Name": "Young Black Dragon",
+           "Family": "Dragon, Chromatic",
+           "Level": 7,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Dragon",
+           "Size": "Large"
+         },
+         {
+           "Name": "Young Blue Dragon",
+           "Family": "Dragon, Chromatic",
+           "Level": 9,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Dragon",
+           "Size": "Large"
+         },
+         {
+           "Name": "Young Brass Dragon",
+           "Family": "Dragon, Metallic",
+           "Level": 7,
+           "Alignment": "Chaotic Good",
+           "Creature Type": "Dragon",
+           "Size": "Large"
+         },
+         {
+           "Name": "Young Bronze Dragon",
+           "Family": "Dragon, Metallic",
+           "Level": 9,
+           "Alignment": "Lawful Good",
+           "Creature Type": "Dragon",
+           "Size": "Large"
+         },
+         {
+           "Name": "Young Copper Dragon",
+           "Family": "Dragon, Metallic",
+           "Level": 8,
+           "Alignment": "Chaotic Good",
+           "Creature Type": "Dragon",
+           "Size": "Large"
+         },
+         {
+           "Name": "Young Gold Dragon",
+           "Family": "Dragon, Metallic",
+           "Level": 11,
+           "Alignment": "Lawful Good",
+           "Creature Type": "Dragon",
+           "Size": "Large"
+         },
+         {
+           "Name": "Young Green Dragon",
+           "Family": "Dragon, Chromatic",
+           "Level": 8,
+           "Alignment": "Lawful Evil",
+           "Creature Type": "Dragon",
+           "Size": "Large"
+         },
+         {
+           "Name": "Young Magma Dragon",
+           "Family": "Dragon, Magma",
+           "Level": 9,
+           "Alignment": "Chaotic Neutral",
+           "Creature Type": "Dragon",
+           "Size": "Large"
+         },
+         {
+           "Name": "Young Red Dragon",
+           "Family": "Dragon, Chromatic",
+           "Level": 10,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Dragon",
+           "Size": "Large"
+         },
+         {
+           "Name": "Young Silver Dragon",
+           "Family": "Dragon, Metallic",
+           "Level": 10,
+           "Alignment": "Lawful Good",
+           "Creature Type": "Dragon",
+           "Size": "Large"
+         },
+         {
+           "Name": "Young White Dragon",
+           "Family": "Dragon, Chromatic",
+           "Level": 6,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Dragon",
+           "Size": "Large"
+         },
+         {
+           "Name": "Zaramuun",
+           "Family": "",
+           "Level": 16,
+           "Alignment": "Chaotic Evil",
+           "Creature Type": "Elemental",
+           "Size": "Large"
+         },
+         {
+           "Name": "Zephyr Hawk",
+           "Family": "Elemental, Air",
+           "Level": 3,
+           "Alignment": "Neutral",
+           "Creature Type": "Elemental",
+           "Size": "Small"
+         },
+         {
+           "Name": "Zombie Brute",
+           "Family": "Zombie",
+           "Level": 2,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Undead",
+           "Size": "Large"
+         },
+         {
+           "Name": "Zombie Hulk",
+           "Family": "Zombie",
+           "Level": 6,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Undead",
+           "Size": "Huge"
+         },
+         {
+           "Name": "Zombie Shambler",
+           "Family": "Zombie",
+           "Level": -1,
+           "Alignment": "Neutral Evil",
+           "Creature Type": "Undead",
+           "Size": "Medium"
+         }
+    ]
+}
