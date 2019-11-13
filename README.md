@@ -18,3 +18,12 @@ Use:
 	$ pf2e-encounter --help
 
 for more information.
+
+## LICENSE
+
+The code in this repository is all licensed under the MIT LICENSE. However, the
+rules.json data file is derived from the Pathfinder 2e rules and as such that
+file falls under the OGL. It is included here for conviniece, but may be replaced
+with creature, NPC, rule and item data from a source of your choosing.
+
+For more detail, see LICENSE.txt and OGL.txt
