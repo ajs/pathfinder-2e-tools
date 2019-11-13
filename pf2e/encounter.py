@@ -134,6 +134,24 @@ def type_match(creature1, creature2):
     return creature1['Creature Type'] == creature2['Creature Type']
 
 
+def elite(creature):
+    """Elite level adjustment"""
+
+    ecreature = creature.copy()
+    ecreature['Level'] += 1
+    ecreature['Name'] += ' (elite adj.)'
+    return ecreature
+
+
+def weak(creature):
+    """Weak level adjustment"""
+
+    wcreature = creature.copy()
+    wcreature['Level'] -= 1
+    wcreature['Name'] += ' (weak adj.)'
+    return wcreature
+
+
 def generate_encounter(rules, options):
     """
     Given rules and command-line options, generate a full encounter.
@@ -143,10 +161,15 @@ def generate_encounter(rules, options):
     min_cost = costs[0]
     party_level = options.party_level
     threat_level = options.threat_level
-    creatures = [c for c in rules.creatures if in_level_range(c, party_level)]
+    creatures = rules.creatures.copy()
     budget = rules.threat_budget[threat_level]
     result_type = None
     encounter = []
+
+    if options.adjustments:
+        creatures += [elite(c) for c in rules.creatures]
+        creatures += [weak(c) for c in rules.creatures if c['Level'] >= 0]
+    creatures = [c for c in creatures if in_level_range(c, party_level)]
 
     while budget > min_cost:
         creatures = [c for c in creatures if in_budget(c, party_level, costs, budget)]
@@ -197,6 +220,8 @@ def main():
         '-T', '--same-type', action='store_true', help='Encounter must contian creatures of same type')
     parser.add_argument(
         '-a', '--similar-alignment', action='store_true', help='Alignments can be different, if similar')
+    parser.add_argument(
+        '--adjustments', action='store_true', help='Include elite/weak adjustments')
 
     options = parser.parse_args()
 
