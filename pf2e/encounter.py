@@ -301,7 +301,7 @@ def main():
 
     with open(PF2RulesFile, 'r') as rules_file:
         rules = PF2Rules(rules_file, options)
-        for n in range(options.encounters):
+        for n in range(1, options.encounters+1):
             if options.encounters > 1:
                 print(f"Encounter #{n}")
             generate_encounter(rules, options)
