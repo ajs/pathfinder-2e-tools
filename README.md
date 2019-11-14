@@ -9,6 +9,28 @@ These tools use Python, so just use pip to set them up:
 
     pip install -e .
 
+### Windows Installation
+
+Under Windows 10, the Windows Linux Subsystem makes running tools like python
+scripts much easier than it used to be! To use it, follow these instructions:
+
+* Go to the Start menu and type "Ubuntu"
+* Select "Install App"
+* Follow the instructions for enabling WSL if given (may require a one-time reboot) and setting up Linux as instructed
+* Go to the Start menu and type "Ubuntu" and this time run the app
+* In the new shell run:
+  * `sudo apt install build-essential python3-venv` # *Give your password and/or answer yes if prompted*
+  * `git clone https://github.com/ajs/pathfinder-2e-tools.git` # *This fetches the tools*
+  * `python3 -m venv ~/.venv/pathfinder-2e-tools` # *This creates a place to install the tools*
+  * And now you can actually install the tools:
+  * `. ~/.venv/pathfinder-2e-tools/bin/activate && pip install -e pathfinder-2e-tools`
+
+Now you're ready to go! Whenever you start the Ubuntu shell back up, just run that last command to get
+yourself back into the virtual environment that has the tool installed and update any libraries as
+needed. To pull down the latest version of the package, use:
+
+* `cd pathfinder-2e-tools && git pull && pip install -e .`
+
 ## `pf2e-encounter`
 
 The `pf2e-encounter` tool is a random encounter generator that takes the
