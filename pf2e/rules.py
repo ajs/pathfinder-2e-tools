@@ -14,6 +14,7 @@ class PF2Rules:
     def __init__(self, infile, options):
         self.options = options
         self.data = json.loads(infile.read())
+        self._hazards = None
 
     @property
     def threat_budget(self):
@@ -26,3 +27,15 @@ class PF2Rules:
     @property
     def creatures(self):
         return self.data['creatures']
+
+    @property
+    def hazards(self):
+        if not self._hazards:
+            self._hazards = [self._hazard_clean(h) for h in self.data['hazards']]
+        return self._hazards
+
+    @staticmethod
+    def _hazard_clean(hazard):
+        h = hazard.copy()
+        h['Level'] = int(h.get('Level', 0))
+        return h

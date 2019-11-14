@@ -3704,5 +3704,162 @@
            "Creature Type": "Undead",
            "Size": "Medium"
          }
+    ],
+    "hazards": [
+      {
+        "Name": "Hidden Pit",
+        "Level": "0",
+        "Complexity": "Simple"
+      },
+      {
+        "Name": "Poisoned Lock",
+        "Level": "1",
+        "Complexity": "Simple"
+      },
+      {
+        "Name": "Slamming Door",
+        "Level": "1",
+        "Complexity": "Simple"
+      },
+      {
+        "Name": "Spear Launcher",
+        "Level": "2",
+        "Complexity": "Simple"
+      },
+      {
+        "Name": "Web Lurker Noose",
+        "Level": "2",
+        "Complexity": "Simple"
+      },
+      {
+        "Name": "Electric Latch Rune",
+        "Level": "3",
+        "Complexity": "Simple"
+      },
+      {
+        "Name": "Web Lurker Deadfall",
+        "Level": "3",
+        "Complexity": "Simple"
+      },
+      {
+        "Name": "Scythe Blades",
+        "Level": "4",
+        "Complexity": "Simple"
+      },
+      {
+        "Name": "Fireball Rune",
+        "Level": "5",
+        "Complexity": "Simple"
+      },
+      {
+        "Name": "Hallucination Powder Trap",
+        "Level": "6",
+        "Complexity": "Simple"
+      },
+      {
+        "Name": "Pharaoh's Ward",
+        "Level": "7",
+        "Complexity": "Simple"
+      },
+      {
+        "Name": "Yellow Mold",
+        "Level": "8",
+        "Complexity": "Simple"
+      },
+      {
+        "Name": "Bottomless Pit",
+        "Level": "9",
+        "Complexity": "Simple"
+      },
+      {
+        "Name": "Bloodthirsty Urge",
+        "Level": "10",
+        "Complexity": "Simple"
+      },
+      {
+        "Name": "Hammer of Forbiddance",
+        "Level": "11",
+        "Complexity": "Simple"
+      },
+      {
+        "Name": "Polymorph Trap",
+        "Level": "12",
+        "Complexity": "Simple"
+      },
+      {
+        "Name": "Planar Rift",
+        "Level": "13",
+        "Complexity": "Simple"
+      },
+      {
+        "Name": "Frozen Moment",
+        "Level": "17",
+        "Complexity": "Simple"
+      },
+      {
+        "Name": "Vorpal Executioner",
+        "Level": "19",
+        "Complexity": "Simple"
+      },
+      {
+        "Name": "Second Chance",
+        "Level": "21",
+        "Complexity": "Simple"
+      },
+      {
+        "Name": "Armageddon Orb",
+        "Level": "23",
+        "Complexity": "Simple"
+      },
+      {
+        "Name": "Summoning Rune",
+        "Level": "1",
+        "Complexity": "Complex"
+      },
+      {
+        "Name": "Drowning Pit",
+        "Level": "3",
+        "Complexity": "Complex"
+      },
+      {
+        "Name": "Quicksand",
+        "Level": "3",
+        "Complexity": "Complex"
+      },
+      {
+        "Name": "Spinning Blade Pillar",
+        "Level": "4",
+        "Complexity": "Complex"
+      },
+      {
+        "Name": "Wheel of Misery",
+        "Level": "6",
+        "Complexity": "Complex"
+      },
+      {
+        "Name": "Poisoned Dart Gallery",
+        "Level": "8",
+        "Complexity": "Complex"
+      },
+      {
+        "Name": "Lava Flume Tubes",
+        "Level": "10",
+        "Complexity": "Complex"
+      },
+      {
+        "Name": "Telekinetic Swarm Trap",
+        "Level": "12",
+        "Complexity": "Complex"
+      },
+      {
+        "Name": "Darkside Mirror",
+        "Level": "14",
+        "Complexity": "Complex"
+      },
+      {
+        "Name": "Banshee's Symphony",
+        "Level": "18",
+        "Complexity": "Complex"
+      }
     ]
 }

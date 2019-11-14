@@ -67,9 +67,12 @@ def print_creature(creature, options):
 
     name = creature['Name']
     level = creature['Level']
-    alignment = creature['Alignment']
-    creature_type = creature['Creature Type']
-    print(f"{name} lvl {level} {alignment} {creature_type}")
+    if 'Alignment' in creature:
+        alignment = creature['Alignment']
+        creature_type = creature['Creature Type']
+        print(f"{name} lvl {level} {alignment} {creature_type}")
+    else:
+        print(f"Hazard: {name} lvl {level}")
 
 
 def alignment_coords(alignment):
@@ -79,7 +82,7 @@ def alignment_coords(alignment):
     e.g. Lawful Good is 0,0 while true Neutral is 1,1.
     """
 
-    if alignment == 'Neutral':
+    if alignment in ('Neutral', 'Any'):
         return (1,1)
     parts = alignment.split(' ', 1)
     locs = {
@@ -98,7 +101,9 @@ def creature_aligned(creature, encounter, similar=False):
     alignment or true Neutral.
     """
 
-    enc_aligns = [c['Alignment'] for c in encounter]
+    if 'Alignment' not in creature:
+        return True
+    enc_aligns = [c.get('Alignment', 'Neutral') for c in encounter]
     return is_aligned(creature['Alignment'], enc_aligns, similar)
 
 def is_aligned(target_align, match_aligns, similar):
@@ -169,6 +174,33 @@ def filter_creature(creature, filters):
     return True
 
 
+def do_hazard(hazard, hazard_mode, creatures):
+    """
+    Determine whether or not to include a hazard
+
+    hazard is the flag that says always include
+
+    hazard_mode is described in the command-line options.
+
+    creatures is the base list of creatures (before adjustments).
+    """
+
+    if hazard:
+        return True
+    elif hazard_mode:
+        if hazard_mode == 'creature':
+            prob = len(creatures)+1
+        elif hazard_mode == 'common':
+            prob = 2
+        elif hazard_mode == 'uncommon':
+            prob = 5
+        else:
+            raise ValueError(f"Unknown hazard mode: {hazard_mode}")
+        return random.randint(1,prob) == 1
+    else:
+        return False
+
+
 def generate_encounter(rules, options):
     """
     Given rules and command-line options, generate a full encounter.
@@ -179,6 +211,7 @@ def generate_encounter(rules, options):
     party_level = options.party_level
     threat_level = options.threat_level
     creatures = rules.creatures.copy()
+    hazards = rules.hazards
     budget = rules.threat_budget[threat_level]
     result_type = None
     encounter = []
@@ -189,6 +222,14 @@ def generate_encounter(rules, options):
     creatures = [c for c in creatures if in_level_range(c, party_level)]
     if options.filter:
         creatures = [c for c in creatures if filter_creature(c, options.filter)]
+
+    if do_hazard(options.hazard, options.hazard_mode, rules.creatures):
+        hazards = [
+            h for h in hazards
+            if in_level_range(h, party_level) and in_budget(h, party_level, costs, budget)]
+        hazard = random.choice(hazards)
+        budget -= cost_of(hazard, party_level, costs)
+        encounter.append(hazard)
 
     while budget > min_cost:
         creatures = [c for c in creatures if in_budget(c, party_level, costs, budget)]
@@ -225,6 +266,11 @@ def main():
         "Extreme",
     )
     sorts = ('level', 'name', 'type')
+    hazard_modes = ('creature', 'common', 'uncommon')
+    hazard_modes_help = (
+        '("creature" = as common as any creature, '
+        '"common" = 50 percent chance, '
+        '"uncommon" = 20 percent chance)')
 
     parser = argparse.ArgumentParser(
         description='Pathfinder 2 Random Encounter Generator')
@@ -246,6 +292,10 @@ def main():
         '--filter', action='store', help='A filter of the form name=value[,name=value,...]')
     parser.add_argument(
         '-e', '--encounters', action='store', type=int, metavar='COUNT', default=1, help='Generate this many encounters')
+    parser.add_argument(
+        '--hazard', action='store_true', help='Include a hazard')
+    parser.add_argument(
+        '--hazard-mode', action='store', choices=hazard_modes, help='Hazard chance: ' + hazard_modes_help)
 
     options = parser.parse_args()
 
