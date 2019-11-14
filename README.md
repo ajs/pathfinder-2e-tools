@@ -9,9 +9,9 @@ These tools use Python, so just use pip to set them up:
 
     pip install -e .
 
-## `encounter`
+## `pf2e-encounter`
 
-The `encounter` tool is a random encounter generator that takes the
+The `pf2e-encounter` tool is a random encounter generator that takes the
 monster list, randomizes it and then selects an encounter according to a
 threat level and average party level that you provide.
 
