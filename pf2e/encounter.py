@@ -286,6 +286,7 @@ def main():
         '"uncommon" = 20 percent chance)')
 
     parser = argparse.ArgumentParser(
+        formatter_class=argparse.ArgumentDefaultsHelpFormatter,
         description='Pathfinder 2 Random Encounter Generator')
     parser.add_argument(
         '-v', '--verbose', action='store_true', help='Verbose output')
