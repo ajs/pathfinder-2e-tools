@@ -70,9 +70,22 @@ def print_creature(creature, options):
     if 'Alignment' in creature:
         alignment = creature['Alignment']
         creature_type = creature['Creature Type']
-        print(f"{name} lvl {level} {alignment} {creature_type}")
+        if options.core_format:
+            alignment = "".join(a[0] for a in alignment.split(' '))
+            tags = [alignment, creature_type]
+            if 'Adjustment' in creature:
+                tags += [creature['Adjustment']]
+            print(f"{name:<40} CREATURE {level:>2d}")
+            print(" ".join(f"[{tag.upper()}]" for tag in tags))
+        else:
+            if 'Adjustment' in creature:
+                name += " (" + creature['Adjustment'].lower() + " adj.)"
+            print(f"{name} lvl {level} {alignment} {creature_type}")
     else:
-        print(f"Hazard: {name} lvl {level}")
+        if options.core_format:
+            print(f"{name:<40} HAZARD {level:>2d}")
+        else:
+            print(f"Hazard: {name} lvl {level}")
 
 
 def alignment_coords(alignment):
@@ -144,7 +157,7 @@ def elite(creature):
 
     ecreature = creature.copy()
     ecreature['Level'] += 1
-    ecreature['Name'] += ' (elite adj.)'
+    ecreature['Adjustment'] = 'Elite'
     return ecreature
 
 
@@ -153,7 +166,7 @@ def weak(creature):
 
     wcreature = creature.copy()
     wcreature['Level'] -= 1
-    wcreature['Name'] += ' (weak adj.)'
+    wcreature['Adjustment'] = 'Weak'
     return wcreature
 
 
@@ -296,6 +309,8 @@ def main():
         '--hazard', action='store_true', help='Include a hazard')
     parser.add_argument(
         '--hazard-mode', action='store', choices=hazard_modes, help='Hazard chance: ' + hazard_modes_help)
+    parser.add_argument(
+        '--core-format', action='store_true', help='Format output more like Core Rules')
 
     options = parser.parse_args()
 
