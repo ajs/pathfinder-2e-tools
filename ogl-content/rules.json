@@ -5,7 +5,14 @@
         "Moderate": 80,
         "Severe": 120,
         "Extreme": 160
-	},
+	},	
+    "threat_adj": {
+        "Trivial": 10,
+        "Low": 15,
+        "Moderate": 20,
+        "Severe": 30,
+        "Extreme": 40
+    },
     "encounter_costs": [10, 15, 20, 30, 40, 60, 80],
     "creatures": [
          {
