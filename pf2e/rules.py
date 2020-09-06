@@ -19,6 +19,10 @@ class PF2Rules:
     @property
     def threat_budget(self):
         return self.data['threat_budget']
+    
+    @property
+    def threat_adj(self):
+        return self.data['threat_adj']
 
     @property
     def encounter_costs(self):
