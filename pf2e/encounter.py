@@ -222,12 +222,17 @@ def generate_encounter(rules, options):
     costs = rules.encounter_costs
     min_cost = costs[0]
     party_level = options.party_level
+    party_size = options.party_size
     threat_level = options.threat_level
     creatures = rules.creatures.copy()
     hazards = rules.hazards
     budget = rules.threat_budget[threat_level]
     result_type = None
     encounter = []
+    
+    # Adjust the budget to address more than four PCs 
+    if options.party_size > 4:
+        budget += rules.threat_adj[threat_level] * (options.party_size - 4)
 
     if options.adjustments:
         creatures += [elite(c) for c in rules.creatures]
@@ -312,6 +317,8 @@ def main():
         '--hazard-mode', action='store', choices=hazard_modes, help='Hazard chance: ' + hazard_modes_help)
     parser.add_argument(
         '--core-format', action='store_true', help='Format output more like Core Rules')
+    parser.add_argument(
+        '-s', '--party-size', action='store', type=int, metavar='SIZE', default=4, help='Set the party size')
 
     options = parser.parse_args()
 
